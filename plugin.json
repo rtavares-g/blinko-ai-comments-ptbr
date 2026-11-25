@@ -2,10 +2,10 @@
   "name": "ai-comment-ptbr",
   "author": "rtavares-g",
   "url": "https://github.com/rtavares-g/blinko-ai-comments-ptbr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "0.0.0",
   "displayName": {
-    "default": "Comentário IA (PT-BR)",
+    "default": "Comentário de IA (PT-BR)",
     "zh": "AI评论 (葡萄牙语)"
   },
   "description": {

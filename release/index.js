@@ -640,10 +640,10 @@ var ie = (C, u, S) => (kt(C, typeof u != "symbol" ? u + "" : u, S), S);
     "name": "ai-comment-ptbr",
     "author": "rtavares-g",
     "url": "https://github.com/rtavares-g/blinko-ai-comments-ptbr",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minAppVersion": "0.0.0",
     "displayName": {
-        "default": "Comentário IA (PT-BR)",
+        "default": "Comentário de IA (PT-BR)",
         "zh": "AI评论 (葡萄牙语)"
     },
     "description": {
@@ -685,19 +685,19 @@ var ie = (C, u, S) => (kt(C, typeof u != "symbol" ? u + "" : u, S), S);
     "step2": "选择\"AI评论\"选项",
     "step3": "等待AI生成评论"
 }, ptT = {
-    "title": "Comentário IA",
+    "title": "Comentário de IA",
     "countLabel": "Contagem: {{count}}",
     "successMessage": "Sucesso!",
-    "aiCommentMenu": "Comentário IA",
+    "aiCommentMenu": "Comentário de IA",
     "aiCommentProcessing": "Gerando comentário com IA...",
     "aiCommentSuccess": "Comentário de IA adicionado com sucesso!",
     "aiCommentError": "Falha ao adicionar o comentário de IA.",
     "pluginDescription": "Adicione comentários de IA a notas individuais pelo menu de clique direito. Este plugin usa os recursos de IA do Blinko para gerar comentários inteligentes com base no conteúdo da nota.",
-    "pluginInstalled": "O plugin Comentário IA está instalado e ativado.",
-    "pluginHint": "Clique com o botão direito em qualquer nota para usar o Comentário IA.",
+    "pluginInstalled": "O plugin Comentário de IA está instalado e ativado.",
+    "pluginHint": "Clique com o botão direito em qualquer nota para usar o Comentário de IA.",
     "howToUse": "Como usar",
     "step1": "Clique com o botão direito em qualquer nota",
-    "step2": "Escolha a opção \"Comentário IA\"",
+    "step2": "Escolha a opção \"Comentário de IA\"",
     "step3": "Aguarde a IA gerar o comentário"
 };
   System.register([], (e) => ({

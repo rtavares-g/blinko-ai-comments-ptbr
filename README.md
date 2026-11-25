@@ -1,4 +1,4 @@
-# Blinko – Comentário IA (PT-BR)
+# Blinko – Comentário de IA (PT-BR)
 
 Versão traduzida do plugin [blinko-ai-comments](https://github.com/quickflash2/blinko-ai-comments) para o Blinko, com interface e prompts em português do Brasil.
 
@@ -13,14 +13,14 @@ Versão traduzida do plugin [blinko-ai-comments](https://github.com/quickflash2/
 1. No Blinko, abra **Configurações → Plugins**.
 2. Instale pelo endereço do repositório: `https://github.com/rtavares-g/blinko-ai-comments-ptbr`
    (o Blinko baixa o `release.zip` da release mais recente).
-3. Ative o plugin **Comentário IA (PT-BR)**.
+3. Ative o plugin **Comentário de IA (PT-BR)**.
 
 Se preferir, baixe o `release.zip` da [página de releases](https://github.com/rtavares-g/blinko-ai-comments-ptbr/releases) e instale manualmente.
 
 ## Como usar
 
 1. Clique com o botão direito em qualquer nota.
-2. Escolha **Comentário IA**.
+2. Escolha **Comentário de IA**.
 3. Aguarde o aviso "Gerando comentário com IA...". O comentário aparece na nota quando terminar.
 
 O plugin usa o modelo de IA configurado no Blinko; não há configuração extra.

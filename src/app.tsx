@@ -9,8 +9,8 @@ export function App(): JSXInternal.Element {
     <>
       <h1>{i18n.t('title')}</h1>
       <div class="card">
-        <p>AI评论插件已安装并启用</p>
-        <p>右键点击任意闪念即可使用AI评论功能</p>
+        <p>{i18n.t('pluginInstalled')}</p>
+        <p>{i18n.t('pluginHint')}</p>
       </div>
     </>
   );

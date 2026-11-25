@@ -6,5 +6,11 @@
   "aiCommentProcessing": "Processing AI comment...",
   "aiCommentSuccess": "AI comment added successfully!",
   "aiCommentError": "Failed to add AI comment.",
-  "pluginDescription": "Add AI comments to individual notes from right-click menu. This plugin utilizes Blinko's AI capabilities to generate intelligent comments based on note content."
-} 
+  "pluginDescription": "Add AI comments to individual notes from right-click menu. This plugin utilizes Blinko's AI capabilities to generate intelligent comments based on note content.",
+  "pluginInstalled": "The AI Comment plugin is installed and enabled.",
+  "pluginHint": "Right-click any note to use AI Comment.",
+  "howToUse": "How to use",
+  "step1": "Right-click any note",
+  "step2": "Choose the \"AI Comment\" option",
+  "step3": "Wait for the AI to generate the comment"
+}

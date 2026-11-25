@@ -614,8 +614,8 @@ var ie = (C, u, S) => (kt(C, typeof u != "symbol" ? u + "" : u, S), S);
     return /* @__PURE__ */ b(N, { children: [
       /* @__PURE__ */ b("h1", { children: e.t("title") }),
       /* @__PURE__ */ b("div", { class: "card", children: [
-        /* @__PURE__ */ b("p", { children: "AI评论插件已安装并启用" }),
-        /* @__PURE__ */ b("p", { children: "右键点击任意闪念即可使用AI评论功能" })
+        /* @__PURE__ */ b("p", { children: e.t("pluginInstalled") }),
+        /* @__PURE__ */ b("p", { children: e.t("pluginHint") })
       ] })
     ] });
   }
@@ -626,53 +626,80 @@ var ie = (C, u, S) => (kt(C, typeof u != "symbol" ? u + "" : u, S), S);
       /* @__PURE__ */ b("div", { className: "space-y-4", children: [
         /* @__PURE__ */ b("p", { children: e.t("pluginDescription") }),
         /* @__PURE__ */ b("div", { className: "bg-gray-100 p-3 rounded", children: [
-          /* @__PURE__ */ b("h3", { className: "font-medium mb-2", children: "使用说明" }),
+          /* @__PURE__ */ b("h3", { className: "font-medium mb-2", children: e.t("howToUse") }),
           /* @__PURE__ */ b("ul", { className: "list-disc list-inside space-y-1 text-sm", children: [
-            /* @__PURE__ */ b("li", { children: "右键点击任意闪念" }),
-            /* @__PURE__ */ b("li", { children: '选择"AI评论"选项' }),
-            /* @__PURE__ */ b("li", { children: "等待AI生成评论" })
+            /* @__PURE__ */ b("li", { children: e.t("step1") }),
+            /* @__PURE__ */ b("li", { children: e.t("step2") }),
+            /* @__PURE__ */ b("li", { children: e.t("step3") })
           ] })
         ] })
       ] })
     ] });
   }
   const vt = {
-    name: "ai-comment",
-    author: "blinko-offical",
-    url: "https://github.com/blinko-space/blinko-plugin-template",
-    version: "0.0.4",
-    minAppVersion: "0.0.0",
-    displayName: {
-      default: "AI Comment",
-      zh: "AI评论"
+    "name": "ai-comment-ptbr",
+    "author": "rtavares-g",
+    "url": "https://github.com/rtavares-g/blinko-ai-comments-ptbr",
+    "version": "1.0.0",
+    "minAppVersion": "0.0.0",
+    "displayName": {
+        "default": "Comentário IA (PT-BR)",
+        "zh": "AI评论 (葡萄牙语)"
     },
-    description: {
-      default: "Add AI comment to individual notes from right-click menu",
-      zh: "从右键菜单为单个闪念添加AI评论"
+    "description": {
+        "default": "Adiciona comentários de IA em português a notas individuais pelo menu de clique direito",
+        "zh": "从右键菜单为单个闪念添加葡萄牙语AI评论"
     },
-    readme: {
-      default: "README.md",
-      zh: "README_zh.md"
+    "readme": {
+        "default": "README.md",
+        "zh": "README_zh.md"
     }
-  }, yt = {
-    title: "AI Comment",
-    countLabel: "Count is {{count}}",
-    successMessage: "Success!",
-    aiCommentMenu: "AI Comment",
-    aiCommentProcessing: "Processing AI comment...",
-    aiCommentSuccess: "AI comment added successfully!",
-    aiCommentError: "Failed to add AI comment.",
-    pluginDescription: "Add AI comments to individual notes from right-click menu. This plugin utilizes Blinko's AI capabilities to generate intelligent comments based on note content."
-  }, gt = {
-    title: "AI评论",
-    countLabel: "计数为 {{count}}",
-    successMessage: "成功！",
-    aiCommentMenu: "AI评论",
-    aiCommentProcessing: "正在生成AI评论...",
-    aiCommentSuccess: "AI评论添加成功！",
-    aiCommentError: "添加AI评论失败。",
-    pluginDescription: "从右键菜单为单个闪念添加AI评论。此插件利用Blinko的AI功能，根据闪念内容生成智能评论。"
-  };
+}, yt = {
+    "title": "AI Comment",
+    "countLabel": "Count is {{count}}",
+    "successMessage": "Success!",
+    "aiCommentMenu": "AI Comment",
+    "aiCommentProcessing": "Processing AI comment...",
+    "aiCommentSuccess": "AI comment added successfully!",
+    "aiCommentError": "Failed to add AI comment.",
+    "pluginDescription": "Add AI comments to individual notes from right-click menu. This plugin utilizes Blinko's AI capabilities to generate intelligent comments based on note content.",
+    "pluginInstalled": "The AI Comment plugin is installed and enabled.",
+    "pluginHint": "Right-click any note to use AI Comment.",
+    "howToUse": "How to use",
+    "step1": "Right-click any note",
+    "step2": "Choose the \"AI Comment\" option",
+    "step3": "Wait for the AI to generate the comment"
+}, gt = {
+    "title": "AI评论",
+    "countLabel": "计数为 {{count}}",
+    "successMessage": "成功！",
+    "aiCommentMenu": "AI评论",
+    "aiCommentProcessing": "正在生成AI评论...",
+    "aiCommentSuccess": "AI评论添加成功！",
+    "aiCommentError": "添加AI评论失败。",
+    "pluginDescription": "从右键菜单为单个闪念添加AI评论。此插件利用Blinko的AI功能，根据闪念内容生成智能评论。",
+    "pluginInstalled": "AI评论插件已安装并启用",
+    "pluginHint": "右键点击任意闪念即可使用AI评论功能",
+    "howToUse": "使用说明",
+    "step1": "右键点击任意闪念",
+    "step2": "选择\"AI评论\"选项",
+    "step3": "等待AI生成评论"
+}, ptT = {
+    "title": "Comentário IA",
+    "countLabel": "Contagem: {{count}}",
+    "successMessage": "Sucesso!",
+    "aiCommentMenu": "Comentário IA",
+    "aiCommentProcessing": "Gerando comentário com IA...",
+    "aiCommentSuccess": "Comentário de IA adicionado com sucesso!",
+    "aiCommentError": "Falha ao adicionar o comentário de IA.",
+    "pluginDescription": "Adicione comentários de IA a notas individuais pelo menu de clique direito. Este plugin usa os recursos de IA do Blinko para gerar comentários inteligentes com base no conteúdo da nota.",
+    "pluginInstalled": "O plugin Comentário IA está instalado e ativado.",
+    "pluginHint": "Clique com o botão direito em qualquer nota para usar o Comentário IA.",
+    "howToUse": "Como usar",
+    "step1": "Clique com o botão direito em qualquer nota",
+    "step2": "Escolha a opção \"Comentário IA\"",
+    "step3": "Aguarde a IA gerar o comentário"
+};
   System.register([], (e) => ({
     execute: () => {
       e("default", class {
@@ -698,7 +725,7 @@ var ie = (C, u, S) => (kt(C, typeof u != "symbol" ? u + "" : u, S), S);
             name: "test",
             icon: "<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-file'><path d='M13 3H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z'/><polyline points='14 3 14 9 19 9'/></svg>",
             placement: "top",
-            tooltip: "testtootip",
+            tooltip: window.Blinko.i18n.t("title"),
             content: () => {
               const n = document.createElement("div");
               return n.setAttribute("data-plugin", "my-note-plugin"), Re(/* @__PURE__ */ b(mt, {}), n), n;
@@ -711,7 +738,7 @@ var ie = (C, u, S) => (kt(C, typeof u != "symbol" ? u + "" : u, S), S);
               try {
                 const { toast: _, api: o, i18n: r } = window.Blinko, l = _.loading(r.t("aiCommentProcessing"));
                 await o.ai.AIComment.mutate({
-                  content: n.content,
+                  content: "Você é o assistente de comentários do Blinko. Escreva um comentário sobre a nota abaixo.\nRegras:\n1. Responda SEMPRE em português do Brasil, independentemente do idioma da nota.\n2. Use formatação Markdown.\n3. Inclua 1 ou 2 emojis relevantes.\n4. Mantenha um tom profissional e útil: acrescente uma reflexão, sugestão ou conexão relevante.\n5. Seja conciso (50 a 150 palavras).\n6. Não repita a nota inteira; comente sobre ela.",
                   noteId: n.id
                 }), _.dismiss(l), _.success(r.t("aiCommentSuccess")), window.Blinko.globalRefresh();
               } catch (_) {
@@ -719,8 +746,8 @@ var ie = (C, u, S) => (kt(C, typeof u != "symbol" ? u + "" : u, S), S);
               }
             }
           }), window.Blinko.addAiWritePrompt(
-            "Translate Content",
-            "Please translate the following content into English:",
+            "Traduzir para português",
+            "Traduza o conteúdo a seguir para o português do Brasil, mantendo a formatação Markdown:",
             "material-symbols:translate"
           );
         }
@@ -729,7 +756,7 @@ var ie = (C, u, S) => (kt(C, typeof u != "symbol" ? u + "" : u, S), S);
          * Adds English and Chinese translation bundles
          */
         initI18n() {
-          window.Blinko.i18n.addResourceBundle("en", "translation", yt), window.Blinko.i18n.addResourceBundle("zh", "translation", gt);
+          window.Blinko.i18n.addResourceBundle("en", "translation", yt), window.Blinko.i18n.addResourceBundle("zh", "translation", gt), window.Blinko.i18n.addResourceBundle("pt", "translation", ptT), window.Blinko.i18n.addResourceBundle("pt-BR", "translation", ptT);
         }
         /**
          * Cleanup function called when plugin is disabled

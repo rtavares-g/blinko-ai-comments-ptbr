@@ -6,5 +6,11 @@
   "aiCommentProcessing": "正在生成AI评论...",
   "aiCommentSuccess": "AI评论添加成功！",
   "aiCommentError": "添加AI评论失败。",
-  "pluginDescription": "从右键菜单为单个闪念添加AI评论。此插件利用Blinko的AI功能，根据闪念内容生成智能评论。"
-} 
+  "pluginDescription": "从右键菜单为单个闪念添加AI评论。此插件利用Blinko的AI功能，根据闪念内容生成智能评论。",
+  "pluginInstalled": "AI评论插件已安装并启用",
+  "pluginHint": "右键点击任意闪念即可使用AI评论功能",
+  "howToUse": "使用说明",
+  "step1": "右键点击任意闪念",
+  "step2": "选择\"AI评论\"选项",
+  "step3": "等待AI生成评论"
+}
